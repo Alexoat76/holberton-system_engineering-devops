@@ -1,2 +1,2 @@
 #!/bin/bash
-chown vincent:--from=guillaume_hello
+chown vincent:--from=guillaume _hello
