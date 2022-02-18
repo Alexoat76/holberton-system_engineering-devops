@@ -23,9 +23,9 @@ Don't forget to fully meet the following development requirements. </div>
 
 **Read or watch** :
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=linux+pid&ei=xvIPYuP3MtOOwbkP5LS6kAo&ved=0ahUKEwjj8unR_Yn2AhVTRzABHWSaDqIQ4dUDCA4&uact=5&oq=linix+pid&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEEcyBAgAEEcyBAgAEEcyBAgAEEcyBAgAEEcyBAgAEEcyBAgAEEcyBAgAEEdKBAhBGABKBAhGGABQAFgAYKURaABwA3gAgAEAiAEAkgEAmAEAyAEIwAEB&sclient=gws-wiz)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=loops+in+bash&source=lnms&sa=X&ved=2ahUKEwi10sL1h4r2AhXORjABHbWmBTMQ_AUoAHoECAEQAg&biw=1346&bih=674&dpr=1.25)
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/watch?v=_5vBubyo1Hs)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/watch?v=C4cdk8Mzm6M)
 
 <div style="text-align: justify">
 	
