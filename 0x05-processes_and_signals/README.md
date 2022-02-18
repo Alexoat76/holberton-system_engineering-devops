@@ -110,11 +110,11 @@ Don't forget to fully meet the following development requirements. </div>
 
 * **9. Process and PID file**
   * [100-process_and_pid_file](./100-process_and_pid_file): Bash script that creates the file
-  `/var/run/holbertonscript.pid` containing its PID and displays `To infinity and
+  `/var/run/myscript.pid` containing its PID and displays `To infinity and
   beyond` indefinitely.
   * Displays `I hate the kill command` upon receiving a `SIGTERM` signal.
   * Displays `Y U no love me?!` upon receiving a `SIGINT` signal.
-  * Deletes the file `/var/run/holbertonscript.pid` and terminates itself
+  * Deletes the file `/var/run/myscript.pid` and terminates itself
   upon receiving the `SIGQUIT` or `SIGTERM` signal.
 
 * **10. Manage my process**
