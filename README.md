@@ -1,10 +1,9 @@
 # High Level Programming
 <div style="text-align: justify">
 
-Thank you for visiting this repository which contain my programming projects written in C and Python3 programming language. for the
-**High Level Programming** curriculum at Holberton School.
+Thank you for visiting this repository which contain programs and scripts primarily written in `Bash` and `Python` for the `System Engineering` and `Devops` curriculum at `Holberton School`.
 
-![Prog](http://content.timesjobs.com/img/75447920/Master.jpg)
+![Prog](https://cdn.pixabay.com/photo/2013/07/13/13/41/bash-161382_960_720.png)
 	
 # Getting Started :running:	
 <div style="text-align: justify">
@@ -35,7 +34,7 @@ The projects in this repository cover:
 ## General :page_with_curl:
 <div style="text-align: justify">
 	
-### Python Scripts: :pushpin:
+### Bash Scripts: :pushpin:
 		
 * Allowed editors: `vi`, `vim`, `emacs`. </div>
 <div style="text-align: justify">
@@ -53,19 +52,6 @@ The projects in this repository cover:
 *Your Bash script must pass `Shellcheck` (version `0.7.0` via `apt-get`) without any error </div>
 
 
-
-
-### Shell Scripts: :pushpin:
-	
-* Allowed editors: `vi`, `vim`, `emacs`. </div>
-<div style="text-align: justify">
-	
-* All your files will be interpreted/compiled on `Ubuntu 20.04 LTS`.
-* All your scripts should be exactly two lines long (`wc -l` file should print 2)
-* All your files should end with a new line.
-* The first line of all your files should be exactly `#!/bin/bash`.
-* All your files must be executable.
-	
 ## Projects 
 
 | Project | Description |
