@@ -1,4 +1,4 @@
-# High Level Programming
+# System Engineering Devops
 <div style="text-align: justify">
 
 Thank you for visiting this repository which contain programs and scripts primarily written in `Bash` and `Python` for the `System Engineering` and `Devops` curriculum at `Holberton School`.
