@@ -3,7 +3,7 @@
 # 0x05. Processes and signals
 <div style="text-align: justify">
 	
-In this project, you should be to learn and practice about handling process ID's and signals in Bash with ps, pgrep, pkill, pkill, exit, and trap.
+In this project, you should be to learn and practice about handling process ID's and signals in `Bash` with `ps`, `pgrep`, `pkill`, `kill`, `exit`, and `trap`.
 
 <div style="text-align: justify">
 Don't forget to fully meet the following development requirements. </div>
@@ -14,7 +14,6 @@ Don't forget to fully meet the following development requirements. </div>
 ## Table of Contents :clipboard:
 
 * [Requirements](#requirements-page_with_curl)
-* [Files](#files-file_folder)
 * [Tasks](#tasks-page_with_curl)
 * [Credits](#credits)
 
@@ -24,27 +23,26 @@ Don't forget to fully meet the following development requirements. </div>
 
 **Read or watch** :
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=what+is+a+doubly+linked+list&oq=What+is+a+doubly+linked+list&aqs=chrome.0.0i512l5j69i61j69i60.1304j0j15&sourceid=chrome&ie=UTF-8)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=linux+pid&ei=xvIPYuP3MtOOwbkP5LS6kAo&ved=0ahUKEwjj8unR_Yn2AhVTRzABHWSaDqIQ4dUDCA4&uact=5&oq=linix+pid&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEEcyBAgAEEcyBAgAEEcyBAgAEEcyBAgAEEcyBAgAEEcyBAgAEEcyBAgAEEdKBAhBGABKBAhGGABQAFgAYKURaABwA3gAgAEAiAEAkgEAmAEAyAEIwAEB&sclient=gws-wiz)
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/watch?v=KFbm6lkMhgw)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/watch?v=_5vBubyo1Hs)
 
 <div style="text-align: justify">
 	
-[What is a HashTable Data Structure - Introduction to Hash Tables , Part 0](https://www.youtube.com/watch?v=MfhjkfocRR0)</div>
+[Linux PID](http://www.linfo.org/pid.html)</div>
 <div style="text-align: justify">
 	
-[Hash function](https://en.wikipedia.org/wiki/Hash_function)</div>
+[Linux process](https://www.thegeekstuff.com/2012/03/linux-processes-environment/)</div>
 <div style="text-align: justify">
 	
-[Hash table](https://en.wikipedia.org/wiki/Hash_table)</div>
+[Linux signal](https://www.thegeekstuff.com/2012/03/linux-signals-fundamentals/)</div>
 
 ## General :page_with_curl:
 <div style="text-align: justify">
 * Allowed editors: vi, vim, emacs. </div>
 <div style="text-align: justify">
-* All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options: 
 	
-`-Wall -Werror -Wextra -pedantic -std=gnu89`. </div>
+*All your files will be compiled on `Ubuntu 20.04` LTS </div>
 <div style="text-align: justify">
 * All your files should end with a new line. </div>
 <div style="text-align: justify">
@@ -52,94 +50,99 @@ Don't forget to fully meet the following development requirements. </div>
 *A `README.md` file, at the root of the folder of the project is mandatory. </div>
 
 <div style="text-align: justify">
-* Your code should use the Betty. It will be checked using</div>
-
-`betty-style.pl` and `betty-doc.pl`.</div>
-
-Please visit the [Betty style](https://github.com/holbertonschool/Betty/wiki) for the full specifications of Betty coding and documentation styles.
-
-<div style="text-align: justify">
-* You are not allowed to use global variables. </div>
-<div style="text-align: justify">
-* No more than 5 functions per file. </div>
+* All your Bash script files must be executable</div>
 
 <div style="text-align: justify">
 	
-*You are allowed to use the C standard library. 
-
+*Your Bash script must pass `Shellcheck` (version `0.7.0` via `apt-get`) without any error </div>
+	
 <div style="text-align: justify">
-*The prototypes of all your functions should be included in your header file called </div>
-
-<div style="text-align: justify"> 
-
-`hash_tables.h` </div>
+	
+*The first line of all your Bash scripts should be exactly `#!/usr/bin/env bash`. </div>
 
 <div style="text-align: justify">
 	
-*Don’t forget to push your `header file`.</div>
+*The second line of all your Bash scripts should be a comment explaining what is the script doing. 
 <div style="text-align: justify">
-* All your header files should be include guarded. </div>
-<div style="text-align: justify">
-	
-## Files :file_folder:
 
-* [hash_tables.h](hash_tables.h): Header file containing definitions and prototypes for all types
-and functions written for the project.
-
-| File | Prototype |
-| --- | --- |
-| `struct hash_node_s` | <ul><li>`char *key`</li><li>`char *value`</li><li>`struct hash_node_s *next`</li></ul>  |
-| `struct hash_table_s` | <ul><li>`unsigned long int size`</li><li>`hash_node_t **array`</li></ul>  |
-| `0-hash_table_create.c` | `hash_table_t *hash_table_create(unsigned long int size);` |
-| `1-djb2.c` | `unsigned long int hash_djb2(const unsigned char *str);` |
-| `2-key_index.c` | `unsigned long int key_index(const unsigned char *key, unsigned long int size);` |
-| `3-hash_table_set.c` | `int hash_table_set(hash_table_t *ht, const char *key, const char *value);` |
-| `4-hash_table_get.c` | `char *hash_table_get(const hash_table_t *ht, const char *key);` |
-| `5-hash_table_print.c` | `void hash_table_print(const hash_table_t *ht);` |
-| `6-hash_table_delete.c` | `void hash_table_delete(hash_table_t *ht);` |
-
-
-## Tests :heavy_check_mark:
-
-* [tests](./tests): Folder of test files. Provided by Holberton School.
-
+* For those who want to know more and `learn about all signals`, check out [this article.](https://www.computerhope.com/unix/signals.htm)
 	
 ## Tasks :page_with_curl:
 
-* **0. >>> ht = {}**
-  	* [0-hash_table_create.c](./0-hash_table_create.c): C function that creates a `hash_table_t`
-  	hash table.
-    		* If the function fails - returns `NULL`.
-    		* Otherwise - returns a pointer to the new hash table.
+* **0. What is my PID**
+  * [0-what-is-my-pid](./0-what-is-my-pid): Bash script that displays its own PID.
 
-* **1. djb2**
-  	* [1-djb2.c](./1-djb2.c): C function that implements the djb2 hashing algorithm.
+* **1. List your processes**
+  * [1-list_your_processes](./1-list_your_processes): Bash script that displays a
+  list of currently running processes.
+  * Shows all processes for all users, including those not featuring a TTY.
+  * Processes are displayed in a user-oriented hierarchy.
 
-* **2. key -> index**
-  	* [2-key_index.c](./2-key_index.c): C function that returns the index at which a key/value
-  	pair should be stored in the array of a `hash_table_t` hash table.
+* **2. Show your Bash PID**
+  * [2-show_your_bash_pid](./2-show_your_bash_pid): Bash script that displays lines
+  containing the `bash` keyword based on the script defined in `1-list_your_processes`.
 
-* **3. >>> ht['betty'] = 'cool'**
-  	* [3-hash_table_set.c](./3-hash_table_set.c): C function that adds an element to a
-  	`hash_table_t` table.
-    		* The parameter `key` cannot be an empty string.
-    		* Returns `1` on success, `0` otherwise.
+* **3. Show your Bash PID made easy**
+  * [3-show_your_bash_pid_made_easy](./3-show_your_bash_pid_made_easy): Bash script
+  that displays the PID along with the process name of processes who name contains the
+  word `bash`.
 
-* **4. >>> ht['betty']**
-  	* [4-hash_table_get.c](./4-hash_table_get.c): C function that retrieves a value associated
-  	with a key in a `hash_table_t` hash table.
-    		* If `key` cannot be matched - returns `NULL`.
-    		* Otherwise - returns the value associated with `key`.
+* **4. To infinity and beyond**
+  * [4-to_infinity_and_beyond](./4-to_infinity_and_beyond): Bash script that displays
+  `To infinity and beyond` indefinitely with a `sleep 2` in between each iteration.
 
-* **5. >>> print(ht)**
-  	* [5-hash_table_print.c](./5-hash_table_print.c): C function that prints a `hash_table_t`
-  	hash table.
-    		* Prints each `key`/`value` pair in the order they appear in the array of the hash table.
-    		* Does not print anything if the hash table is `NULL`.
+* **5. Kill me now**
+  * [5-kill_me_now](./5-kill_me_now): Bash script that kills the
+  [4-to_infinity_and_beyond](./4-to_infinity_and_beyond) process using `kill`.
 
-* **6. >>> del ht**
-  	* [6-hash_table_delete.c](./6-hasb_table_delete.c): C function that deletes a
-  	`hash_table_t` hash table.
+* **6. Kill me now made easy**
+  * [6-kill_me_now_made_easy](./6-kill_me_now_made_easy): Bash script that kills the
+  [4-to_infinity_and_beyond](./4-to_infinity_and_beyond) process using `pkill`.
+
+* **7. Highlander**
+  * [7-highlander](./7-highlander): Bash script that displays `To infinity and beyond`
+  indefinitely with a `sleep 2` in between each iteration.
+  * Displays `I am invincible!!!` upon receiving a `SIGTERM` signal.
+
+* **8. Beheaded process**
+  * [8-beheaded_process](./8-beheaded_process): Bash script that kills the process
+  [7-highlander](./7-highlander).
+
+* **9. Process and PID file**
+  * [100-process_and_pid_file](./100-process_and_pid_file): Bash script that creates the file
+  `/var/run/holbertonscript.pid` containing its PID and displays `To infinity and
+  beyond` indefinitely.
+  * Displays `I hate the kill command` upon receiving a `SIGTERM` signal.
+  * Displays `Y U no love me?!` upon receiving a `SIGINT` signal.
+  * Deletes the file `/var/run/holbertonscript.pid` and terminates itself
+  upon receiving the `SIGQUIT` or `SIGTERM` signal.
+
+* **10. Manage my process**
+  * [manage_my_process](./manage_my_process): Bash script that writes `I am alive!` to the file
+  `/tmp/my_process` indefinitely.
+    * Sleeps two seconds in between each write.
+  * [101-manage_my_process](./101-manage_my_process): Bash script that manages the
+  [manage_my_process](./manage_my_process) script.
+  * When passed the argument `start`:
+    * Starts [manage_my_process](./manage_my_process).
+    * Creates a file containing its PID in `/var/run/my_process.pid`.
+    * Displays `manage_my_process started`.
+  * When passed the argument `stop`:
+    * Stops [manage_my_process](./manage_my_process).
+    * Deletes the file `/var/run/my_process.pid`.
+    * Displays `manage_my_process stopped`.
+  * When passed the argument `restart`:
+    * Stops [manage_my_process](./manage_my_process).
+    * Deletes the file `/var/run/my_process.pid`.
+    * Starts `manage_my_process`.
+    * Creates a file containing its PID in `/var/run/my_process.pid`.
+    * Displays `manage_my_process started`.
+  * Otherwise, displays `Usage: manage_my_process {start|stop|restart}`.
+
+* **11. Zombie**
+  * [102-zombie.c](./102-zombie.c): C program that creates five zombie processes.
+  * For every zombie created, displays `Zombie process created, PID:
+  <ZOMBIE_PID>`.
 	
 ## Credits
 
