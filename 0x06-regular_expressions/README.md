@@ -3,7 +3,7 @@
 # 0x06. Regular expression
 <div style="text-align: justify">
 	
-In this project, you should be to learn and practice about handling process ID's and signals in `Bash` with `ps`, `pgrep`, `pkill`, `kill`, `exit`, and `trap`.
+In this project, you should be to learn and practice about how to use regular expressions. Use to `Ruby's Oniguruma library`.
 
 <div style="text-align: justify">
 Don't forget to fully meet the following development requirements. </div>
@@ -23,26 +23,35 @@ Don't forget to fully meet the following development requirements. </div>
 
 **Read or watch** :
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=linux+pid&ei=xvIPYuP3MtOOwbkP5LS6kAo&ved=0ahUKEwjj8unR_Yn2AhVTRzABHWSaDqIQ4dUDCA4&uact=5&oq=linix+pid&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEEcyBAgAEEcyBAgAEEcyBAgAEEcyBAgAEEcyBAgAEEcyBAgAEEcyBAgAEEdKBAhBGABKBAhGGABQAFgAYKURaABwA3gAgAEAiAEAkgEAmAEAyAEIwAEB&sclient=gws-wiz)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=regular+expression&oq=regular+&aqs=chrome.2.69i57j0i512l5j46i512j0i512l3.4016j1j15&sourceid=chrome&ie=UTF-8)
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/watch?v=_5vBubyo1Hs)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/watch?v=sa-TUpSx1JA)
 
 <div style="text-align: justify">
 
-###Regular Expression
+#### Regular Expression:
 	
 [http://www.regular-expressions.info/](https://www.regular-expressions.info/)</div>
 <div style="text-align: justify">
 	
-[http://www.w3schools.com/jsref/jsref_obj_regexp.asp](https://www.w3schools.com/jsref/jsref_obj_regexp.asp)Play with regexp (or compose them): </div>
+[http://www.w3schools.com/jsref/jsref_obj_regexp.asp](https://www.w3schools.com/jsref/jsref_obj_regexp.asp). Play with regexp (or compose them):
 
-*Ruby:[http://rubular.com/](https://rubular.com/)
-*PHP/Javascript/Python: [https://regex101.com/](https://regex101.com/)
-
+* Ruby: [http://rubular.com/](https://rubular.com/) </div>
 <div style="text-align: justify">
 	
-[Linux signal](https://www.thegeekstuff.com/2012/03/linux-signals-fundamentals/)</div>
+* PHP/Javascript/Python: https://regex101.com/  </div>
+<div style="text-align: justify">
+	
+[Regular expressions - basics](https://www.slideshare.net/neha_jain/introducing-regular-expressions)</div>
+	
+[Regular expressions - advanced](https://www.slideshare.net/neha_jain/advanced-regular-expressions-80296518)</div>
 
+[Use a regular expression against a problem: now you have 2 problems](https://blog.codinghorror.com/regular-expressions-now-you-have-two-problems/)</div>
+<div style="text-align: justify">
+
+[Learn Regular Expressions with simple, interactive exercises](https://regexone.com/lesson/matching_characters?)</div>
+<div style="text-align: justify">
+	
 ## General :page_with_curl:
 <div style="text-align: justify">
 * Allowed editors: vi, vim, emacs. </div>
@@ -57,98 +66,77 @@ Don't forget to fully meet the following development requirements. </div>
 
 <div style="text-align: justify">
 * All your Bash script files must be executable</div>
+	
+<div style="text-align: justify">
+	
+*The first line of all your Bash scripts should be exactly `#!/usr/bin/env ruby`. </div>
 
 <div style="text-align: justify">
 	
-*Your Bash script must pass `Shellcheck` (version `0.7.0` via `apt-get`) without any error </div>
-	
-<div style="text-align: justify">
-	
-*The first line of all your Bash scripts should be exactly `#!/usr/bin/env bash`. </div>
-
-<div style="text-align: justify">
-	
-*The second line of all your Bash scripts should be a comment explaining what is the script doing. 
+*All the `regex` must be built for the `Oniguruma library`. 
 <div style="text-align: justify">
 
-* For those who want to know more and `learn about all signals`, check out [this article.](https://www.computerhope.com/unix/signals.htm)
+## Usage :pushpin:
+	
+* Usage: Run each file with ```./[filename] "pattern to test if match" | cat -e```
+* Each file has the following format:
+```
+#!/usr/bin/env ruby
+puts ARGV[0].scan(/ regex here /).join
+```
 	
 ## Tasks :page_with_curl:
 
-* **0. What is my PID**
-  * [0-what-is-my-pid](./0-what-is-my-pid): Bash script that displays its own PID.
+_Note: Each Ruby script in the project matches regular expressions based on an
+argument passed to it via the command line._
 
-* **1. List your processes**
-  * [1-list_your_processes](./1-list_your_processes): Bash script that displays a
-  list of currently running processes.
-  * Shows all processes for all users, including those not featuring a TTY.
-  * Processes are displayed in a user-oriented hierarchy.
+* **0. Simply matching School**
+  * [0-simply_match_school.rb](./0-simply_match_school.rb): Ruby script that
+  matches the regular expression `School`.
 
-* **2. Show your Bash PID**
-  * [2-show_your_bash_pid](./2-show_your_bash_pid): Bash script that displays lines
-  containing the `bash` keyword based on the script defined in `1-list_your_processes`.
+* **1. Repetition Token #0**
+  * [1-repetition_token_0.rb](./1-repetition_token_0.rb): Ruby script that matches
+  the regular expression `hbn` with between 2-5 `t`'s in between `hb` and `n`.
 
-* **3. Show your Bash PID made easy**
-  * [3-show_your_bash_pid_made_easy](./3-show_your_bash_pid_made_easy): Bash script
-  that displays the PID along with the process name of processes who name contains the
-  word `bash`.
+* **2. Repetition Token #1**
+  * [2-repetition_token_1.rb](./2-repetition_token_1.rb): Ruby script that matches
+  the regular expression `hn` with 0 or 1 occurrences of `b` and 0 or 1
+  occurrences of `t` in between `h` and `n`.
 
-* **4. To infinity and beyond**
-  * [4-to_infinity_and_beyond](./4-to_infinity_and_beyond): Bash script that displays
-  `To infinity and beyond` indefinitely with a `sleep 2` in between each iteration.
+* **3. Repetition Token #2**
+  * [3-repetition_token_2.rb](./3-repetition_token_2.rb): Ruby script that matches
+  the regular expression `hbn` with 1 or more `t`'s in between `hb` and `n`.
 
-* **5. Kill me now**
-  * [5-kill_me_now](./5-kill_me_now): Bash script that kills the
-  [4-to_infinity_and_beyond](./4-to_infinity_and_beyond) process using `kill`.
+* **4. Repetition Token #3**
+  * [4-repetition_token_3.rb](./4-repetition_token_3.rb): Ruby script that matches the
+  regular expression `hbn` with 0 or more `t`'s in between `hb` and `n`.
 
-* **6. Kill me now made easy**
-  * [6-kill_me_now_made_easy](./6-kill_me_now_made_easy): Bash script that kills the
-  [4-to_infinity_and_beyond](./4-to_infinity_and_beyond) process using `pkill`.
+* **5. Not quite HBTN yet**
+  * [5-beginning_and_end.rb](./5-beginning_and_end.rb): Ruby script that matches a
+  regular expression starting with `h` and ending with `n` with any single character in between.
 
-* **7. Highlander**
-  * [7-highlander](./7-highlander): Bash script that displays `To infinity and beyond`
-  indefinitely with a `sleep 2` in between each iteration.
-  * Displays `I am invincible!!!` upon receiving a `SIGTERM` signal.
+* **6. Call me maybe**
+  * [6-phone_number.rb](./6-phone_number.rb): Ruby script that matches a regular expression
+  representing a 10-digit phone number.
 
-* **8. Beheaded process**
-  * [8-beheaded_process](./8-beheaded_process): Bash script that kills the process
-  [7-highlander](./7-highlander).
+* **7. OMG WHY ARE YOU SHOUTING?**
+  * [7-OMG_WHY_ARE_YOU_SHOUTING.rb](./7-OMG_WHY_ARE_YOU_SHOUTING.rb): Ruby script that
+  matches regular expressions of uppercase letters.
 
-* **9. Process and PID file**
-  * [100-process_and_pid_file](./100-process_and_pid_file): Bash script that creates the file
-  `/var/run/myscript.pid` containing its PID and displays `To infinity and
-  beyond` indefinitely.
-  * Displays `I hate the kill command` upon receiving a `SIGTERM` signal.
-  * Displays `Y U no love me?!` upon receiving a `SIGINT` signal.
-  * Deletes the file `/var/run/myscript.pid` and terminates itself
-  upon receiving the `SIGQUIT` or `SIGTERM` signal.
+* **8. Textme**
+  * [100-textme.rb](./100-textme.rb): Ruby script that runs statistics on TextMe app text
+  message transcations.
+  * Output: `[SENDER],[RECEIVER],[FLAGS]` where
+    * `[SENDER]` is the sender phone number or name (including country code
+    if present).
+    * `[RECEIVER]` is the receiver phone number or name (including country code
+    if present).
+    * `[FLAGS]` is the flags that were used.
 
-* **10. Manage my process**
-  * [manage_my_process](./manage_my_process): Bash script that writes `I am alive!` to the file
-  `/tmp/my_process` indefinitely.
-    * Sleeps two seconds in between each write.
-  * [101-manage_my_process](./101-manage_my_process): Bash script that manages the
-  [manage_my_process](./manage_my_process) script.
-  * When passed the argument `start`:
-    * Starts [manage_my_process](./manage_my_process).
-    * Creates a file containing its PID in `/var/run/my_process.pid`.
-    * Displays `manage_my_process started`.
-  * When passed the argument `stop`:
-    * Stops [manage_my_process](./manage_my_process).
-    * Deletes the file `/var/run/my_process.pid`.
-    * Displays `manage_my_process stopped`.
-  * When passed the argument `restart`:
-    * Stops [manage_my_process](./manage_my_process).
-    * Deletes the file `/var/run/my_process.pid`.
-    * Starts `manage_my_process`.
-    * Creates a file containing its PID in `/var/run/my_process.pid`.
-    * Displays `manage_my_process started`.
-  * Otherwise, displays `Usage: manage_my_process {start|stop|restart}`.
-
-* **11. Zombie**
-  * [102-zombie.c](./102-zombie.c): C program that creates five zombie processes.
-  * For every zombie created, displays `Zombie process created, PID:
-  <ZOMBIE_PID>`.
+* **9. Pass LinkedIn technical interview level0**
+  * [101-passed_linkedin_regex_challenge.jpg](./101-passed_linkedin_regex_challenge.jpg):
+  Screenshot signifying completion of the
+  [LinkedIn Engineering Regex Puzzle](https://engineering.linkedin.com/puzzle).
 	
 ## Credits
 
