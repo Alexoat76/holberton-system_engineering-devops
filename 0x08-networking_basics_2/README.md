@@ -100,7 +100,7 @@ Don't forget to fully meet the following development requirements. </div>
   	IP's on the machine.
 
 * **2. Port listening on localhost**
-  	* [2-port_listening_on_localhost](./2-port_listening_on_localhost): Bash script that
+  	* [100-port_listening_on_localhost](./100-port_listening_on_localhost): Bash script that
   	listens on port `98` on `localhost`.
 	
 ## Credits
