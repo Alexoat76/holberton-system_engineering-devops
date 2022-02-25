@@ -43,47 +43,20 @@ Don't forget to fully meet the following development requirements. </div>
 ### man or help:
 
 `netstat`
+
 `ping`
-ifconfig
-telnet
-nc
-cut
+
+`ifconfig`
+`telnet`
+
+`nc`
+
+`cut`
 
 * What is localhost/127.0.0.1
 * What is 0.0.0.0
 * What is /etc/hosts
 * How to display your machine’s active network interfaces
-
-
-
-
-* OSI model
-  * What is it?
-  * How many layers does it have?
-  * How is it organized?
-* LAN
-  * What is it?
-  * What is its typical usage?
-  * What is its typical geographical size?
-* WAN
-  * What is it?
-  * What is its typical usage?
-  * What is its typical geographical size?
-* What is the Internet?
-* IP addresses
-  * What are they?
-  * What are the two types of IP addresses?
-  * What is `localhost`?
-  * What is a subnet?
-  * Why was IPv6 created?
-* TCP/UDP
-  * What are the 2 mainly used data transfer protocols for IP?
-  * What is the main difference between TCP and UDP?
-* TCP/UDP Ports
-  * What is a port?
-  * What are ports are used for SSH, HTTP, and HTTPS?
-* What tools/protocols are often used to check if a device is connected to a network?
-<div style="text-align: justify">
 	
 ## General :page_with_curl:
 <div style="text-align: justify">
@@ -112,9 +85,23 @@ cut
 *The second line of all your Bash scripts should be a comment explaining what is the script doing. 
 <div style="text-align: justify">
 
+*The checker is running on Docker, so make sure to read [this](https://web.archive.org/web/20171117023601/http://blog.jonathanargentiero.com/docker-sed-cannot-rename-etcsedl8ysxl-device-or-resource-busy/)
 	
 ## Tasks :page_with_curl:
 
+* **0. Change your home IP**
+  	* [0-change_your_home_IP](./0-change_your_home_IP): Bash script that configures
+  	an Ubuntu server as follows:
+  		* `localhost` resolves to `127.0.0.2`
+  		* `facebook.com` resolves to `8.8.8.8`
+
+* **1. Show attached IPs**
+  	* [1-show_attached_IPs](./1-show_attached_IPs): Bash script that displays all active IPv4
+  	IP's on the machine.
+
+* **2. Port listening on localhost**
+  	* [2-port_listening_on_localhost](./2-port_listening_on_localhost): Bash script that
+  	listens on port `98` on `localhost`.
 	
 ## Credits
 
