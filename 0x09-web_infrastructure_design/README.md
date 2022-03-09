@@ -4,6 +4,12 @@
 <div style="text-align: justify">
 	
 In this project, you should be research and learn about of Web Infrastructure Design. So, this project consists a collection of web infrastructure designs that could be implemented in any web development project. The files contain links to each respective whiteboard diagram.
+	
+<p align="center">
+  <img width="250"  
+        src="https://github.com/Alexoat76/holberton-system_engineering-devops/blob/main/0x09-web_infrastructure_design/assets/Server-storage.png"
+  >
+</p>
 
 <div style="text-align: justify">
 Don't forget to fully meet the following development requirements. </div>
