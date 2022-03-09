@@ -63,7 +63,8 @@ Don't forget to fully meet the following development requirements. </div>
 ## Tasks :page_with_curl:
 
 ### 0. `Simple web stack.`
-A lot of websites are powered by simple web infrastructure, a lot of time it is composed of a single server with a `LAMP` stack, so design a one server web infrastructure that hosts the website that is reachable via `www.foobar.com` Start having a user wanting to access your website.
+A lot of websites are powered by simple web infrastructure, a lot of time it is composed of a single server with a `LAMP` stack.<br/>
+ + [x] **[0-simple_web_stack](0-simple_web_stack)** Contains the `URL` of an image containing the design of a one server web infrastructure that hosts the website that is reachable via `www.foobar.com` Start having a user wanting to access your website.
 
 **Contains:**
 - 1 server.
@@ -75,13 +76,13 @@ A lot of websites are powered by simple web infrastructure, a lot of time it is 
 
 **DESCRIPTION**
 
-This is a simple web infrastructure that hosts a website that is reachable via `www.foobar.com`. There are no firewalls or SSL certificates for protecting the server's network. Each component (database, application server) has to share the resources (`CPU`, `RAM`, and `SSD`) provided by the server.
+This is a simple web infrastructure that hosts a website that is reachable via `www.foobar.com`. There are no firewalls or `SSL certificates` for protecting the server's network. Each component (database, application server) has to share the resources (`CPU`, `RAM`, and `SSD`) provided by the server.
 
 *Specifics About This Infrastructure.*
 
 + **What a server is.**<br/>A server is a computer hardware or software that provides services to other computers, which are usually referred to as *clients*.
 
-+ **The role of the domain name.**<br/>To provide a human-friendly alias for an `IP Address`. For example, the domain name `www.wikipedia.org` is easier to recognize and remember than `208.80.154.232`. The IP address and domain name alias is mapped in the Domain Name System (DNS)
++ **The role of the domain name.**<br/>To provide a human-friendly alias for an `IP Address`. For example, the domain name `www.wikipedia.org` is easier to recognize and remember than `208.80.154.232`. The IP address and domain name alias is mapped in the Domain Name System `(DNS)`
 
 + **The type of DNS record `www` is in `www.foobar.com`.**<br/>`www.foobar.com` uses an **A record**. This can be checked by running `dig www.foobar.com`.<br/>**Note:** the results might be different but for the infrastructure in this design, an **A** record is used.<br/>
 <i>Address Mapping record (A Record)—also known as a DNS host record, stores a hostname and its corresponding IPv4 address.</i>
@@ -105,7 +106,7 @@ This is a simple web infrastructure that hosts a website that is reachable via `
 ---
 	
 ### 1. `Distributed web infrastructure.`
-Desing three server web infrastructure that hosts the website `www.foobar.com.`
++ [x] **[1-distributed_web_infrastructure](1-distributed_web_infrastructure)** Contains the `URL` of an image containing the design of a three server web infrastructure that hosts the website `www.foobar.com.`
 
 **Contains:**
 - 2 servers.
@@ -140,7 +141,7 @@ This is a distributed web infrastructure that atttempts to reduce the traffic to
 ---
 	
 ### 2. `Secured and monitored web infrastructure.`
-Design a three server web infrastructure that hosts the website `www.foobar.com` it must be secured, serve encrypted traffic, and be monitored.
++ [x] **[2-secured_and_monitored_web_infrastructure](2-secured_and_monitored_web_infrastructure)** Contains the `URL` of an image containing the design of a three server web infrastructure that hosts the website `www.foobar.com` it must be secured, serve encrypted traffic, and be monitored.
 
 **Contains:**
 - 3 firewalls.
