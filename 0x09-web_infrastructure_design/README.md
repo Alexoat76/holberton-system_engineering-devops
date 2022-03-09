@@ -81,12 +81,12 @@ This is a simple web infrastructure that hosts a website that is reachable via `
 
 + **What a server is.**<br/>A server is a computer hardware or software that provides services to other computers, which are usually referred to as *clients*.
 
-+ **The role of the domain name.**<br/>To provide a human-friendly alias for an IP Address. For example, the domain name `www.wikipedia.org` is easier to recognize and remember than `208.80.154.232`. The IP address and domain name alias is mapped in the Domain Name System (DNS)
++ **The role of the domain name.**<br/>To provide a human-friendly alias for an `IP Address`. For example, the domain name `www.wikipedia.org` is easier to recognize and remember than `208.80.154.232`. The IP address and domain name alias is mapped in the Domain Name System (DNS)
 
 + **The type of DNS record `www` is in `www.foobar.com`.**<br/>`www.foobar.com` uses an **A record**. This can be checked by running `dig www.foobar.com`.<br/>**Note:** the results might be different but for the infrastructure in this design, an **A** record is used.<br/>
 <i>Address Mapping record (A Record)—also known as a DNS host record, stores a hostname and its corresponding IPv4 address.</i>
 
-+ **The role of the web server.**<br/>The web server is a software/hardware that accepts requests via HTTP or secure HTTP (HTTPS) and responds with the content of the requested resource or an error messsage.
++ **The role of the web server.**<br/>The web server is a software/hardware that accepts requests via `HTTP` or secure HTTP `(HTTPS)` and responds with the content of the requested resource or an error messsage.
 
 + **The role of the application server.**<br/>To install, operate and host applications and associated services for end users, IT services and organizations and facilitates the hosting and delivery of high-end consumer or business applications
 
