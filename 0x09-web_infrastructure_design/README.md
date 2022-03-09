@@ -1,9 +1,9 @@
 ![Brand](https://assets.website-files.com/6105315644a26f77912a1ada/610540e8b4cd6969794fe673_Holberton_School_logo-04-04.svg)
 
-# 0x09. Web infrastructure design1
+# 0x09. Web infrastructure design
 <div style="text-align: justify">
 	
-In this project, you should be continue to research and learn about of Web Infrastructure Design. Files in this project contain links to each respective whiteboard diagram.
+In this project, you should be research and learn about of Web Infrastructure Design. So, this project consists a collection of web infrastructure designs that could be implemented in any web development project. The files contain links to each respective whiteboard diagram.
 
 <div style="text-align: justify">
 Don't forget to fully meet the following development requirements. </div>
@@ -23,85 +23,46 @@ Don't forget to fully meet the following development requirements. </div>
 
 **Read or watch** :
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=osi+model+explained&oq=osi+model&aqs=chrome.1.69i57j0i512l9.4954j0j15&sourceid=chrome&ie=UTF-8)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=What+is+Web+infrastructure+design&sxsrf=APq-WBsKK_PLxc_urjgSy0EdwtOe9vTEkQ%3A1646833409261&ei=Aa8oYofMD5SYwbkPqM6DyA0&ved=0ahUKEwjH0PPClLn2AhUUTDABHSjnANkQ4dUDCA4&uact=5&oq=What+is+Web+infrastructure+design&gs_lcp=Cgdnd3Mtd2l6EAMyCAghEBYQHRAeMggIIRAWEB0QHjIICCEQFhAdEB4yCAghEBYQHRAeOgkIIxCwAxAnEBM6CQgAELADEAgQHjoHCCMQsAIQJzoKCAAQCBANEB4QE0oECEEYAUoECEYYAFDWDFjIGGCVTmgCcAB4AIABlwKIAfkKkgEFMC44LjGYAQCgAQHIAQTAAQE&sclient=gws-wiz)
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.google.com/search?q=osi+model+explained&source=lnms&tbm=vid&sa=X&ved=2ahUKEwj1sqrq0pb2AhV1SzABHZQ8Bn4Q_AUoAXoECAEQAw&biw=1334&bih=670&dpr=1.25)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=What+is+Web+infrastructure+design)
 
-<div style="text-align: justify">
+### Concepts:
 	
-[What is localhost](https://en.wikipedia.org/wiki/Localhost)</div>
-<div style="text-align: justify">
-
-[What is 0.0.0.0](https://en.wikipedia.org/wiki/0.0.0.0)</div>
-<div style="text-align: justify">
-	
-[What is the hosts file](https://www.makeuseof.com/tag/modify-manage-hosts-file-linux/)</div>
-	
-[Netcat examples](https://www.thegeekstuff.com/2012/04/nc-command-examples/)</div>
-
-
-### man or help:
-
-`netstat`
-
-`ping`
-
-`ifconfig`
-`telnet`
-
-`nc`
-
-`cut`
-
-* What is localhost/127.0.0.1
-* What is 0.0.0.0
-* What is /etc/hosts
-* How to display your machine’s active network interfaces
+- `DNS`
+- `Monitoring`
+- `Web Server`
+- `Network basics`
+- `Load balancer`
+- `Server`
+- [What is a database](https://www.techtarget.com/searchdatamanagement/definition/database)
+- [What’s the difference between a web server and an app server?](https://www.youtube.com/watch?v=S97eKyv2b9M)
+- [DNS record types](https://pressable.com/?s=DNS&post_type=knowledgebase)
+- [Single point of failure](https://en.wikipedia.org/wiki/Single_point_of_failure)
+- [How to avoid downtime when deploying new code](https://softwareengineering.stackexchange.com/questions/35063/how-do-you-update-your-production-codebase-database-schema-without-causing-downt#answers-header)
+- [High availability cluster (active-active/active-passive)](https://docs.oracle.com/cd/E17904_01/core.1111/e10106/intro.htm#ASHIA712)
+- [What is HTTPS](https://www.instantssl.com/http-vs-https)
+- [What is a firewall](https://www.webopedia.com/definitions/firewall/)
 	
 ## General :page_with_curl:
-<div style="text-align: justify">
-* Allowed editors: vi, vim, emacs. </div>
-<div style="text-align: justify">
 	
-*All your files will be compiled on `Ubuntu 20.04` LTS </div>
-<div style="text-align: justify">
-* All your files should end with a new line. </div>
-<div style="text-align: justify">
-	
-*A `README.md` file, at the root of the folder of the project is mandatory. </div>
+- A `README.md` file, at the root of the folder of the project, is mandatory.
+- For each task, once you are done whiteboarding (on a whiteboard, piece of paper or software or your choice), take a picture/screenshot of your diagram.
+- This project will be manually reviewed:
+- As each task is completed, the name of that task will turn green.
+- Upload a screenshot, showing that you completed the required levels, to any image hosting service.
+(I personally use [imgur](https://imgur.com/) but feel free to use anything you want).
+- For the following tasks, insert the link from of your screenshot into the answer file.
+- After pushing your answer file to GitHub, insert the GitHub file link into the URL box.
+- You will also have to whiteboard each task in front of a mentor, staff or student - no computer or notes will be allowed during the whiteboarding session.
+- Focus on what you are being asked:
+- Cover what the requirements mention, we will explore details in a later project.
+- Keep in mind that you will have 30 minutes to perform the exercise, you will get points for what is asked in requirements.
+- Similarly in a job interview, you should answer what the interviewer asked for, be careful about being too verbose - always ask the interviewer if going into details is necessary - speaking too much can play against you
+- In this project, again, avoid going in details if not asked
 
-<div style="text-align: justify">
-* All your Bash script files must be executable</div>
-
-<div style="text-align: justify">
-* Your Bash script must pass Shellcheck (version 0.7.0 via apt-get) without any errors
-
-<div style="text-align: justify">
-	
-*The first line of all your Bash scripts should be exactly `#!/usr/bin/env bash`. </div>
-
-<div style="text-align: justify">
-	
-*The second line of all your Bash scripts should be a comment explaining what is the script doing. 
-<div style="text-align: justify">
-
-*The checker is running on Docker, so make sure to read [this](https://web.archive.org/web/20171117023601/http://blog.jonathanargentiero.com/docker-sed-cannot-rename-etcsedl8ysxl-device-or-resource-busy/)
-	
 ## Tasks :page_with_curl:
 
-* **0. Change your home IP**
-  	* [0-change_your_home_IP](./0-change_your_home_IP): Bash script that configures
-  	an Ubuntu server as follows:
-  		* `localhost` resolves to `127.0.0.2`
-  		* `facebook.com` resolves to `8.8.8.8`
-
-* **1. Show attached IPs**
-  	* [1-show_attached_IPs](./1-show_attached_IPs): Bash script that displays all active IPv4
-  	IP's on the machine.
-
-* **2. Port listening on localhost**
-  	* [100-port_listening_on_localhost](./100-port_listening_on_localhost): Bash script that
-  	listens on port `98` on `localhost`.
 	
 ## Credits
 
