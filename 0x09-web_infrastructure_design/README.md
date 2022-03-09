@@ -51,7 +51,6 @@ Don't forget to fully meet the following development requirements. </div>
 - This project will be manually reviewed:
 - As each task is completed, the name of that task will turn green.
 - Upload a screenshot, showing that you completed the required levels, to any image hosting service.
-(I personally use [imgur](https://imgur.com/) but feel free to use anything you want).
 - For the following tasks, insert the link from of your screenshot into the answer file.
 - After pushing your answer file to GitHub, insert the GitHub file link into the URL box.
 - You will also have to whiteboard each task in front of a mentor, staff or student - no computer or notes will be allowed during the whiteboarding session.
