@@ -86,7 +86,6 @@ This is a simple web infrastructure that hosts a website that is reachable via `
 + **The type of DNS record `www` is in `www.foobar.com`.**<br/>`www.foobar.com` uses an **A record**. This can be checked by running `dig www.foobar.com`.<br/>**Note:** the results might be different but for the infrastructure in this design, an **A** record is used.<br/>
 <i>Address Mapping record (A Record)—also known as a DNS host record, stores a hostname and its corresponding IPv4 address.</i>
 
-
 + **The role of the web server.**<br/>The web server is a software/hardware that accepts requests via HTTP or secure HTTP (HTTPS) and responds with the content of the requested resource or an error messsage.
 
 + **The role of the application server.**<br/>To install, operate and host applications and associated services for end users, IT services and organizations and facilitates the hosting and delivery of high-end consumer or business applications
@@ -103,7 +102,8 @@ This is a simple web infrastructure that hosts a website that is reachable via `
 
 + **Cannot scale if there's too much incoming traffic.**<br/>It would be hard to scale this infrastructure becauses one server contains the required components. The server can quickly run out of resources or slow down when it starts receiving a lot of requests.
 	
-
+---
+	
 ### 1. `Distributed web infrastructure.`
 Desing three server web infrastructure that hosts the website `www.foobar.com.`
 
@@ -137,6 +137,8 @@ This is a distributed web infrastructure that atttempts to reduce the traffic to
 	
 + **No monitoring.**<br/>We have no way of knowing the status of each server since they're not being monitored.
 	
+---
+	
 ### 2. `Secured and monitored web infrastructure.`
 Design a three server web infrastructure that hosts the website `www.foobar.com` it must be secured, serve encrypted traffic, and be monitored.
 
@@ -163,6 +165,7 @@ This is a 3-server web infrastructure that is secured, monitored, and serves enc
 + Having one `MySQL server` is an issue because it is not scalable and can act as a single point of failure for the web infrastructure.
 + Having servers with all the same components would make the components contend for resources on the server like `CPU`, `Memory`, `I/O`, etc., which can lead to poor performance and also make it difficult to locate the source of the problem. A setup such as this is not easily scalable. 
 	
+---
 	
 ## Credits
 
