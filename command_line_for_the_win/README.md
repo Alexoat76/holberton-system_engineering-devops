@@ -4,8 +4,8 @@
 Thank you for visiting this repository which contain `pictures` or files `.png` or `.jpg` of some of answers to the challenge of **command line!**.<br>
 
 <p align="center">
-  <img width="250"  
-        src="https://github.com/Alexoat76/holberton-system_engineering-devops/blob/master/command_line_for_the_win/assets/CMDChallenge.png"
+  <img width="1000"  
+        src="https://github.com/Alexoat76/holberton-system_engineering-devops/blob/main/command_line_for_the_win/assets/CMDChallenge.png"  
   >
 </p>	
 	
@@ -15,23 +15,19 @@ Thank you for visiting this repository which contain `pictures` or files `.png` 
 ## Table of Contents :clipboard:
 * [About](#about)
 * [Requirements](#requirements)
-* [Projects](#projects)
+* [Tasks](#tasks)
 * [Credits](#credits)
 
 	
 ## About
-The projects in this repository cover:
-`Bash` and `Bash scripts` to automate tasks.
-
-## Background Context
-[CMD CHALLENGE](https://intranet.hbtn.io/rltoken/dGik0ttp83Dxj-_G5CWe_g) 
+**[CMD CHALLENGE](https://intranet.hbtn.io/rltoken/dGik0ttp83Dxj-_G5CWe_g)**
   is a pretty cool game challenging you on **`Bash skills`**. Everything is done via the **`command line`**
 and the questions are becoming increasingly complicated. It’s a good training to improve your command line skills!
 *Have fun!*
 
 ## Requirements
 ### General
-* A  ` README.md `  file, at the root of the folder of the project, is mandatory
+* A  **`README.md`**  file, at the root of the folder of the project, is mandatory
 * This project will be manually reviewed.
 * As each task is completed, the name of that task will turn green
 * Create a screenshot, showing that you completed the required levels
@@ -40,18 +36,18 @@ and the questions are becoming increasingly complicated. It’s a good training 
 
 ## Tasks
 ### 0. First 九 tasks
-Task Body Complete the first 9 tasks.
-- File:`0-first_9_tasks.jpg`, `0-first_9_tasks.png` 
+Complete `the first 9 tasks`.
+- File: **[0-first_9_tasks.jpg](./0-first_9_tasks.jpg)**, **[0-first_9_tasks.png](./0-first_9_tasks.png)**
 
 ### 1. Reach חי completed tasks
-Complete the 9 next tasks, getting to 18 total.
+Complete `the 9 next tasks`, getting to **`18 total`**.
 
-- File:`1-next-9-tasks.jpg`, `1-next-9-tasks.png` 
+- File:**[1-next-9-tasks.jpg](/1-next-9-tasks.jpg)**, **[1-next-9-tasks.png](./1-next-9-tasks.jpg)**
 
 ### 2. Reach the perfect cube, 27
-Complete the 9 next tasks, getting to 27 total.
+Complete `the 9 next tasks`, getting to **`27 total`**.
 
-- File:`2-last-9-tasks.jpg`, `2-last-9-tasks.png` 
+- File:**[2-last-9-tasks.jpg](/2-last-9-tasks.jpg)**, **[2-last-9-tasks.png](./2-last-9-tasks.png)**
 
 ## Credits
 
