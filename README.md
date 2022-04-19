@@ -1,10 +1,14 @@
 # System Engineering Devops
 <div style="text-align: justify">
 
-Thank you for visiting this repository which contain programs and scripts primarily written in `Bash` and `Python` for the `System Engineering` and `Devops` curriculum at `Holberton School`.
+Thank you for visiting this repository which contain scripts primarily written in `Bash` for the `System Engineering` and `Devops` to automate tasks. curriculum at `Holberton School`.
 
-![Prog](https://cdn.pixabay.com/photo/2013/07/13/13/41/bash-161382_960_720.png)
-	
+<p align="center">
+  <img width="350"  
+        src="https://cdn.pixabay.com/photo/2013/07/13/13/41/bash-161382_960_720.png"
+  >
+</p>
+
 # Getting Started :running:	
 <div style="text-align: justify">
 	
@@ -36,21 +40,15 @@ The projects in this repository cover:
 	
 ### Bash Scripts: :pushpin:
 		
-* Allowed editors: `vi`, `vim`, `emacs`. </div>
-<div style="text-align: justify">
-
-* All your files will be interpreted/compiled on `Ubuntu 20.04 LTS`.
-* All your files should end with a new line.
-* The first line of all your files should be exactly `#!/usr/bin/env bash`.
-* A `README.md` file at the root of the repo, containing a description of the repository.
-* A `README.md` file, at the root of the folder of this project, is mandatory.
-<div style="text-align: justify">
-* All your Bash script files must be executable</div>
-
-<div style="text-align: justify">
-
-*Your Bash script must pass `Shellcheck` (version `0.7.0` via `apt-get`) without any error </div>
-
+- Allowed editors: `vi`, `vim`, `emacs`.
+- All files will be interpreted/compiled on `Ubuntu 20.04 LTS`.
+- All files should end with a new line.
+- The first line of all files should be exactly `#!/usr/bin/env bash`.
+- A `README.md` file at the root of the repo, containing a description of the repository.
+- A `README.md` file, at the root of the folder of this project, is mandatory.
+- All Bash script files must be executable
+- Bash script must pass *`Shellcheck`* (version `0.7.0` via `apt-get`) without any error
+- The Puppet manifests must pass *`puppet-lint`* version 2.1.1 without any errors
 
 ## Projects 
 
@@ -65,6 +63,9 @@ The projects in this repository cover:
 | [0x06. Regular Expressions ](./0x06-regular_expressions) | Building regular expressions using Ruby's Oniguruma |
 | [0x07. Networking Basics #0](./0x07-networking_basics) | OSI Model and data transfer protocols |
 | [0x08. Networking Basics #1 ](./0x08-networking_basics_2) | Localhost, IPv4 and /etc/hosts |
+| [0x09. Web Infrastructure Design ](./0x09-web_infrastructure_design) | Designing secure and monitored server systems |
+| [0x0A. Configuration Management ](./0x0A-configuration_management) | Server with Puppet manifests/modules |
+| [0x0B. SSH ](./0x0B-ssh) | Client configuration and key generation using SSH |
 
 ## Credits
 
