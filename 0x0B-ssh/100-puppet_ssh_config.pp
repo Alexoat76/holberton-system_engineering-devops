@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 # Client configuration
 exec { 'Turn off passwd auth':
   command => 'bash -c "echo PasswordAuthentication no >> /etc/ssh/ssh_config"',
