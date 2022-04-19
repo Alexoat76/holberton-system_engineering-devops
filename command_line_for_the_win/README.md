@@ -17,7 +17,6 @@ Thank you for visiting this repository which contain `pictures` or files `.png` 
 * [Requirements](#requirements)
 * [Tasks](#tasks)
 * [Credits](#credits)
-
 	
 ## About
 **[CMD CHALLENGE](https://intranet.hbtn.io/rltoken/dGik0ttp83Dxj-_G5CWe_g)**
@@ -39,16 +38,22 @@ and the questions are becoming increasingly complicated. It’s a good training 
 Complete `the first 9 tasks`.
 - File: **[0-first_9_tasks.jpg](./0-first_9_tasks.jpg)**, **[0-first_9_tasks.png](./0-first_9_tasks.png)**
 
+---
+	
 ### 1. Reach חי completed tasks
 Complete `the 9 next tasks`, getting to **`18 total`**.
 
 - File:**[1-next-9-tasks.jpg](/1-next-9-tasks.jpg)**, **[1-next-9-tasks.png](./1-next-9-tasks.jpg)**
 
+---
+	
 ### 2. Reach the perfect cube, 27
 Complete `the 9 next tasks`, getting to **`27 total`**.
 
 - File:**[2-last-9-tasks.jpg](/2-last-9-tasks.jpg)**, **[2-last-9-tasks.png](./2-last-9-tasks.png)**
 
+---
+	
 ## Credits
 
 ## Author(s):blue_book:
