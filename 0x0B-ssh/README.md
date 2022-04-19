@@ -11,8 +11,8 @@
 This project contains some tasks for learning to connecting and working with servers using the **`SSH protocol`**.
 
 <p align="center">
-  <img width="300"  
-        src=""
+  <img width="400"  
+        src="https://github.com/Alexoat76/holberton-system_engineering-devops/blob/main/0x0B-ssh/assets/SSH.png"
   >
 </p>
 
