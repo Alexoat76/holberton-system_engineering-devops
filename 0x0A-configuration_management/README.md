@@ -58,7 +58,6 @@ Read or watch:
 - The Puppet manifests first line must be a comment explaining what the Puppet manifest is about
 - The Puppet manifests files must end with the extension `.pp`
 
-
 ## More Info
 ### Note on Versioning
 The ***`Ubuntu 20.04`*** VM should have Puppet 5.5 *preinstalled*.
@@ -194,7 +193,6 @@ root@d391259bf577:/# ./killmenow
 Terminated
 root@d391259bf577:/#
 ``` 
-
 ---
 
 ## Credits
