@@ -149,8 +149,6 @@ $
 
 + **[2-ssh_config](./2-ssh_config)**
 
-2-ssh_config
-
 The machine has an SSH configuration file for the local SSH client, let’s configure it to our needs so that you can 
 connect to a server without typing a password.Share your SSH client configuration in your answer file.
 
