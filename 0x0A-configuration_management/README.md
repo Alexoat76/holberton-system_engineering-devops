@@ -6,6 +6,7 @@
 </p>
 
 ---
+
 # 0x0A. Configuration management
 
 This project contains some tasks for learning how to configuration management using *`Puppet`* **(the Ruby gem)**.
