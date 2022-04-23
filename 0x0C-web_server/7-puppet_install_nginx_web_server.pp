@@ -5,9 +5,7 @@
 # Using Puppet| Install Nginx server, setup and configuration
 
 package { 'nginx':
-  ensure          => 'installed'
-  provider        => 'apt',
-  install_options => ['-y']
+  ensure => 'installed'
 }
 
 file { '/var/www/html/index.nginx-debian.html':
