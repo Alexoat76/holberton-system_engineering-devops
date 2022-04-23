@@ -5,10 +5,12 @@
 # Using Puppet| Install Nginx server, setup and configuration
 
 package { 'nginx':
-  ensure => 'installed'
+  ensure          => 'installed'
+  provider        => 'apt',
+  install_options => ['-y']
 }
 
-file { '/var/www/html/index.html':
+file { '/var/www/html/index.nginx-debian.html':
   content => 'Hello World',
 }
 
