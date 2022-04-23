@@ -6,16 +6,17 @@
 </p>
 
 ---
-
 # 0x0A. Configuration management
 
 This project contains some tasks for learning how to configuration management using *`Puppet`* **(the Ruby gem)**.
+
 
 <p align="center">
   <img width="300"  
         src="https://media1.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47xmgz88jlg8ad58gsrrvzixugyz63ii2hqcebpdgs&rid=giphy.gif&ct=g"
   >
 </p>
+
 
 # Getting Started :running:	
 <div style="text-align: justify">
