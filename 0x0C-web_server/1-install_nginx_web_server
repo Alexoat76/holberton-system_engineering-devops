@@ -1,7 +1,12 @@
 #!/usr/bin/env bash
+# File:   1-install_nginx_web_server
+# Author: Alex Orland Arévalo Tribaldos
+# email:  <3915@holbertonschool.com>
+
 # Installs, configures, and starts the server
 sudo apt-get update
+sudo apt-get upgrade
 sudo apt-get install -y nginx
 sudo chown -R ubuntu /var/www
-echo "Hello World" > /var/www/html/index.nginx-debian.html
+echo "Hello World!" > /var/www/html/index.nginx-debian.html
 sudo service nginx start
