@@ -330,6 +330,7 @@ perform a 301 redirect when querying /redirect_me.
 	- The redirection must be a “301 Moved Permanently”
 	- Your answer file should be a Puppet manifest containing commands to automatically configure an Ubuntu machine 
 		to respect above requirements
+	
 ---
 
 ## Credits
