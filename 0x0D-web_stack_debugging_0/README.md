@@ -8,7 +8,7 @@
 ---
 # Web stack debugging #0
 
-This project contains some tasks for learning how to *`web servers`* work. Additionally, how to a basic configuration of the server using *`Nginx`*.
+This project contains some tasks to learn what *`web stacks`* are and how to work in isolated containers. Also how to fix them. 
 
 <p align="center">
   <img width="400"  
@@ -38,20 +38,6 @@ Read or watch:
 
 [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=web+server+configuration+in+linux)
 
-- [How the web works](https://intranet.hbtn.io/rltoken/4tRRzyyETAySzU-bgNGLSw) 
-- [Nginx](https://intranet.hbtn.io/rltoken/H9OfhUnBDdxV-QQnIucMlA) 
-- [How to Configure Nginx](https://intranet.hbtn.io/rltoken/wePwmjbJDgJZO7YPvffWxQ) 
-
-*`Child process concept page`*
-- [Root and sub domain](https://intranet.hbtn.io/rltoken/S2JO8E1CftLXOgvCfYf78A) 
-- [HTTP requests](https://intranet.hbtn.io/rltoken/C9s3U62JbiOAvn9WCoxKsA) 
-- [HTTP redirection](https://intranet.hbtn.io/rltoken/kI4vRQ6vc45Wfbdo3UD8Lw) 
-- [Not found HTTP response code](https://intranet.hbtn.io/rltoken/5UvC588x2hZR7dm6eRFPoQ) 
-- [Logs files on Linux](https://intranet.hbtn.io/rltoken/bkqQ72HZVAV65G8nB503Pw) 
-
-*`For reference:`*
-- [RFC 7231 (HTTP/1.1)](https://intranet.hbtn.io/rltoken/Ip0atFgh-X8dcQxQdUyVUA) 
-- [RFC 7540 (HTTP/2)](https://intranet.hbtn.io/rltoken/cwfqkSHy98XGvyezL5KIIA) 
 
 *`man or help:`*
 - `scp` 
