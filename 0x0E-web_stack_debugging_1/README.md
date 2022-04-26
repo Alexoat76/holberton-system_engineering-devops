@@ -11,8 +11,8 @@
 This project contains some tasks for learning
 
 <p align="center">
-  <img width="400"  
-        src="https://github.com/Alexoat76/holberton-system_engineering-devops/blob/main/0x0B-ssh/assets/SSH.png"
+  <img width="200"  
+        src="https://media.istockphoto.com/vectors/magnifier-searching-malware-bug-computer-internet-error-virus-concept-vector-id1063078150?k=20&m=1063078150&s=612x612&w=0&h=vdBM80cB4rIA_ThCu-XkXBJXLbjem2H59nExBithmjI="
   >
 </p>
 
@@ -38,57 +38,137 @@ Read or watch:
 
 [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=ssh)
 
-- [What is a (physical) server - text](https://intranet.hbtn.io/rltoken/PXE-o9DWronMp4ETwADOpg) 
-- [What is a (physical) server - video](https://intranet.hbtn.io/rltoken/IfLc3lxSs4w5xdsFlRDPWw) 
-- [SSH essentials](https://intranet.hbtn.io/rltoken/qKJi0RXLqaCLkHLCLhiYNA) 
-- [SSH Config File](https://intranet.hbtn.io/rltoken/hnb0XaZQ0Nb_7QmSC6aV-w) 
-- [Public Key Authentication for SSH](https://intranet.hbtn.io/rltoken/zaO_H74BXLfsrQHzDW-QGQ) 
-- [How Secure Shell Works](https://intranet.hbtn.io/rltoken/SW2m2e0KMA2K1dXk_0M0CA) 
-- [SSH Crash Course](https://intranet.hbtn.io/rltoken/8N-RlUma9lwGfyZp1_C-Wg) 
- ***(Long, but highly informative. Watch this if configuring SSH is still confusing. It may be helpful to watch at x1.25 speed or above.)***
-
-### For reference:
-
-- [Understanding the SSH Encryption and Connection Process](https://intranet.hbtn.io/rltoken/6mtNBCxYkoBQJ2vJ6TcRYA) 
-- [Secure Shell Wiki](https://intranet.hbtn.io/rltoken/c1Yj55AE6gGkDxpACdY1vg) 
-- [IETF RFC 4251 (Description of the SSH Protocol)](https://www.ietf.org/rfc/rfc4251.txt) 
-- [Internet Engineering Task Force](https://intranet.hbtn.io/rltoken/bH7JrEiKN4Q6-J58d9pAsw) 
-- [Request for Comments](https://intranet.hbtn.io/rltoken/lDe2f7hVqQPPCNr5i2zE-g) 
-
-### man or help:
-
-- `ssh` 
-- `ssh-keygen` 
-- `env` 
+- [Network basics](https://intranet.hbtn.io/concepts/33) 
+- [Web stack debugging](https://intranet.hbtn.io/concepts/68) 
 
 ## Requirements
 ### General
 - Allowed editors: `vi`, `vim`, `emacs` 
-- All files will be interpreted on *`Ubuntu 20.04`* LTS
+- All files will be interpreted on Ubuntu 20.04 LTS
 - All files should end with a new line
-- A `README.md` file, at the root of the folder of the project, is mandatory
+- A `README.md` file at the root of the folder of the project is mandatory
 - All Bash script files must be executable
+- The Bash scripts must pass `Shellcheck` without any error
+- The Bash scripts must run without error
 - The first line of all your Bash scripts should be exactly `#!/usr/bin/env bash` 
-- The second line of all your Bash scripts should be a comment explaining what is the script doing
+- The second line of all Bash scripts should be a comment explaining what is the script doing
+- You are not allowed to use `wget`
 	
 ### Installation :computer:
 	
 - Clone this repository: `https://github.com/Alexoat76/holberton-system_engineering-devops.git`	
-- Access to directory: `cd 0x0B-ssh`
+- Access to directory: `cd 0x0E-web_stack_debugging_1`
 - `Compile` accord to `instructions` of each task.
 
 ## Files :file_folder:
-	
-## Tests :heavy_check_mark:
-
-+ **[tests](./tests)**: Folder of test files. Provided by Holberton School.
 		
 ---
 
 ## Tasks
 
-	
++ [X] 0\. **Nginx likes port 80**
+
++ **[0-nginx_likes_port_80](./0-nginx_likes_port_80)**
+
+Using your debugging skills, find out what’s keeping your Ubuntu container’s Nginx installation from listening 
+on port `80`. Feel free to install whatever tool you need, start and destroy as many containers as you need to 
+debug the issue. Then, write a Bash script with the minimum number of commands to automate your fix.
+
+Requirements:
+
+- Nginx must be running, and listening on port `80` of all the server’s active IPv4 IPs 
+- Write a Bash script that configures a server to the above requirements
+
+```bash
+root@966c5664b21f:/# curl 0:80
+curl: (7) Failed to connect to 0 port 80: Connection refused
+root@966c5664b21f:/#
+root@966c5664b21f:/# ./0-nginx_likes_port_80 > /dev/null 2&>1
+root@966c5664b21f:/#
+root@966c5664b21f:/# curl 0:80
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+root@966c5664b21f:/#
+```
 ---
+
++ [X] 1\. **Make it sweet and short**
+
++ **[1-debugging_made_short](./1-debugging_made_short)**
+
+Using what you did for task #0, make your fix short and sweet.
+Requirements:
+	- The Bash script must be 5 lines long or less
+	- There must be a new line at the end of the file
+	- Respect usual Bash script requirements
+	- Cannot use  ` ; ` 
+	- Cannot use  ` && ` 
+	- Cannot use  ` wget ` 
+	- Cannot execute your previous answer file (Do not include the name of the previous script in this one)
+	- `service` (init) must say that `nginx` is not running ← for real
+
+```bash
+root@966c5664b21f:/# curl 0:80
+curl: (7) Failed to connect to 0 port 80: Connection refused
+root@966c5664b21f:/#
+root@966c5664b21f:/# cat -e 1-debugging_made_short | wc -l
+5
+root@966c5664b21f:/# ./1-debugging_made_short
+root@966c5664b21f:/# curl 0:80
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to nginx!</title>
+<style>
+    body {
+        width: 35em;
+        margin: 0 auto;
+        font-family: Tahoma, Verdana, Arial, sans-serif;
+    }
+</style>
+</head>
+<body>
+<h1>Welcome to nginx!</h1>
+<p>If you see this page, the nginx web server is successfully installed and
+working. Further configuration is required.</p>
+
+<p>For online documentation and support please refer to
+<a href="http://nginx.org/">nginx.org</a>.<br/>
+Commercial support is available at
+<a href="http://nginx.com/">nginx.com</a>.</p>
+
+<p><em>Thank you for using nginx.</em></p>
+</body>
+</html>
+root@966c5664b21f:/#
+root@966c5664b21f:/# service nginx status
+ * nginx is not running
+root@966c5664b21f:/# 
+```
+---	
 
 ## Credits
 
