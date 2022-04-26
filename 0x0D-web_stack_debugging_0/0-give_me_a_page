@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+# File:   0-give_me_a_page
+# Author: Alex Orland Arévalo Tribaldos
+# email:  <3915@holbertonschool.com>
+
 # Fixes the issue with the web server
 # DOCKER_CONT_ID=$(docker ps | grep 'holbertonschool/265-0' | cut -d ' ' -f1)
 # docker exec -i "$DOCKER_CONT_ID" \
