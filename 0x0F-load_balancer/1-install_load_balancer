@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+# shellcheck disable=SC2154
+# Create a script to install and configure HAProxy on lb-01 server
+# Configure HAProxy to send traffic to web-01 and web-02 servers
+# Distribute requests using a roundrobin algorithm
+# Make sure that HAProxy can be managed via an init script
+
+CFG="\\\nlisten appname 0.0.0.0:80\n\tmode http\n\tbalance roundrobin\n\toption httpclose\n\toption forwardfor\n\tserver 3915-web-01 34.138.139.5 check\n\tserver 3915-web-02 52.207.224.100 check\n"
+
+sudo apt-get update
+sudo apt-get -y install nginx
+sudo apt-get install -y haproxy=2.5\*
+
+# Make sure HAproxy can be managed via an init script
+sudo sed -i "s/ENABLED=0/ENABLED=1/" /etc/default/haproxy
+
+# Backup original config file before attempt modifications
+sudo cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.backup
+
+# Configure to include roundrobin and two servers
+sudo sed -i "\$a $CFG" /etc/haproxy/haproxy.cfg
+
+sudo service haproxy start
