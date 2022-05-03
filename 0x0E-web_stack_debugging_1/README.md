@@ -11,8 +11,8 @@
 This project contains some tasks for learning about *`broken/bugged`* webstacks in isolated containers, and tasked with fixing the web stack to a working state. For each task, used a script *`automating`* the commands necessary to `fix` the web stack.
 
 <p align="center">
-  <img width="200"  
-        src="https://media.istockphoto.com/vectors/magnifier-searching-malware-bug-computer-internet-error-virus-concept-vector-id1063078150?k=20&m=1063078150&s=612x612&w=0&h=vdBM80cB4rIA_ThCu-XkXBJXLbjem2H59nExBithmjI="
+  <img width="400"  
+        src="https://www.vargonen.com/blog/wp-content/uploads/2020/04/net-framework-versiyon.jpg"
   >
 </p>
 
