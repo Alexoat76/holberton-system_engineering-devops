@@ -8,7 +8,7 @@
 ---
 # 0x0E. Web stack debugging #1
 
-This project contains some tasks for learning about *`broken/bugged`* webstacks in isolated containers, and tasked with fixing the web stack to a working state. For each task, used a script *`automating`* the commands necessary to `fix` the web stack.
+This project contains some tasks for learning about *`broken/bugged`* webstacks in isolated containers, and tasked with fixing the web stack to a working state. For each task, used a script *`automating`* the commands necessary to *`fix`* the web stack.
 
 <p align="center">
   <img width="400"  
