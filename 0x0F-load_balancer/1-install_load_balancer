@@ -5,19 +5,21 @@
 # Distribute requests using a roundrobin algorithm
 # Make sure that HAProxy can be managed via an init script
 
-CFG="\\\nlisten appname 0.0.0.0:80\n\tmode http\n\tbalance roundrobin\n\toption httpclose\n\toption forwardfor\n\tserver 3915-web-01 34.138.139.5 check\n\tserver 3915-web-02 52.207.224.100 check\n"
+sudo apt-get -y update
+sudo apt-get -y upgrade
+sudo apt-get -y install haproxy
+sudo chown -R ubuntu /etc/haproxy
 
-sudo apt-get update
-sudo apt-get -y install nginx
-sudo apt-get install -y haproxy=2.5\*
+configuration="\
+frontend http
+				 bind *:80
+				 mode http
+				 default_backend web-server
+backend web-server
+				balance roundrobin
+				server 3915-web-01 34.138.139.5:80 check
+				server 3915-web-02 52.207.224.100:80 check
+"
 
-# Make sure HAproxy can be managed via an init script
-sudo sed -i "s/ENABLED=0/ENABLED=1/" /etc/default/haproxy
-
-# Backup original config file before attempt modifications
-sudo cp /etc/haproxy/haproxy.cfg /etc/haproxy/haproxy.cfg.backup
-
-# Configure to include roundrobin and two servers
-sudo sed -i "\$a $CFG" /etc/haproxy/haproxy.cfg
-
-sudo service haproxy start
+sudo echo "$configuration" >> /etc/haproxy/haproxy.cfg
+sudo service haproxy restart
