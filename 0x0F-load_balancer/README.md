@@ -32,9 +32,10 @@ This project contains some tasks for learning about the replicate of *`Nginx`* c
 This project contains some tasks for learning about the replicate of *`Nginx`* configuration the original server, and another to set up an *`HAproxy`* ***load balancer*** on to manage both web servers.
 
 ### Background Context
+	
 * 2 additional servers:
-* gc-[STUDENT_ID]-web-02-XXXXXXXXXX
-* gc-[STUDENT_ID]-lb-01-XXXXXXXXXX
+* **gc-[STUDENT_ID]-web-02-XXXXXXXXXX**
+* **gc-[STUDENT_ID]-lb-01-XXXXXXXXXX**
 	
 Let’s improve our web stack so that there is  [redundancy](https://intranet.hbtn.io/rltoken/QiOC_I-8BeV4aNExIucC9Q) 
   for our web servers. This will allow us to be able to 
