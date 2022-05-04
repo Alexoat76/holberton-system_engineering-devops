@@ -10,8 +10,6 @@
 sudo ufw disable
 sudo apt-get -y install ufw
 sudo sed -i "s/IPV6=no/IPV6=yes/" /etc/default/ufw
-sudo ufw default allow outgoing
-sudo ufw default deny incoming
 
 # configure
 sudo ufw default deny incoming
