@@ -95,8 +95,6 @@ Read or watch:
 
 + **[tests](./tests)**: Folder of test files. Provided by Holberton School.
 		
----
-
 ## Tasks
 
 + [x] 0\. **Transfer a file to your server**
