@@ -11,7 +11,7 @@
 This project contains some tasks for learning about the importance of HTTPS and how it works. Also how to configured web servers with certbot certificate and HAproxy SSL termination.
 
 <p align="center">
-  <img width="400"  
+  <img width="250"  
         src="https://raleigh.teddslist.com/wp-content/uploads/2018/06/ssl-https-gif.gif"
   >
 </p>
@@ -83,15 +83,14 @@ Requirements:
 	- Add the subdomain `web-01` to your domain, point it to your `web-01` IP
 	- Add the subdomain `web-02` to your domain, point it to your `web-02` IP
 	- The Bash script must accept 2 arguments:
-						 `domain`:
-										* type: string
-										* what: domain name to audit
-										* mandatory: yes
-						 `subdomain`:
-										* type: string
-										* what: specific subdomain to audit
-										* mandatory: no
-
+		- `domain`:	
+			- type: string
+			- what: domain name to audit
+			- mandatory: yes
+		- `subdomain`:
+			- type: string
+			- what: specific subdomain to audit
+			- mandatory: no
 - Output: `The subdomain [SUB_DOMAIN] is a [RECORD_TYPE] record and points to [DESTINATION]`
 - When only the parameter  ` domain `  is provided, display information for its subdomains `www`, `lb-01`,
 	`web-01` and `web-02` - in this specific order
