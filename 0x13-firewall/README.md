@@ -8,7 +8,7 @@
 ---
 # 0x13. Firewall
 
-This project contains some tasks for learning about how to use ufw commands to configure firewalls on web servers.
+This project contains some tasks for learning about how to use `ufw` commands to configure `firewalls` on `web servers`.
 
 <p align="center">
   <img width="400"  
@@ -29,7 +29,7 @@ This project contains some tasks for learning about how to use ufw commands to c
 
 ## About
 	
-The project contains some tasks for learning about how to use ufw commands to configure firewalls on web servers.
+The project contains some tasks for learning about how to use `ufw`commands to configure firewalls on web servers.
 
 ## Resources :books:
 Read or watch:
