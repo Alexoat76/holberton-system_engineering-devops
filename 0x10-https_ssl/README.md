@@ -8,7 +8,7 @@
 ---
 # 0x10. HTTPS SSL
 
-This project contains some tasks for learning about the importance of HTTPS and how it works. Also how to configured web servers with certbot certificate and HAproxy SSL termination.
+This project contains some tasks for learning about the importance of *`HTTPS`* and how it works. Also how to configured web servers with *`certbot`* certificate and *`HAproxy SSL termination`*.
 
 <p align="center">
   <img width="250"  
@@ -29,7 +29,7 @@ This project contains some tasks for learning about the importance of HTTPS and 
 
 ## About
 	
-This project contains some tasks for learning about the importance of HTTPS and how it works.
+This project contains some tasks for learning about the importance of *`HTTPS`* and how it works.
 
 ## Resources :books:
 Read or watch:
