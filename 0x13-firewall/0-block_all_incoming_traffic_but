@@ -6,12 +6,12 @@
 # Configures a ufw firewall to block all incoming traffic
 # except for TCP ports 22, 443 and 80.
 
-# install ufw, support both IPv4 and IPv6, and ensure default values
+# Install ufw, support both IPv4 and IPv6, and ensure default values
 sudo ufw disable
 sudo apt-get -y install ufw
 sudo sed -i "s/IPV6=no/IPV6=yes/" /etc/default/ufw
 
-# configure
+# Configure
 sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw allow 22/tcp
