@@ -62,8 +62,6 @@ Read or watch:
 
 ## Files :file_folder:
 		
----
-
 ## Tasks
 
 + [X] 0\. **Nginx likes port 80**
