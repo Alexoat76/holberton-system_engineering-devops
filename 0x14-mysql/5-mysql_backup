@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+# File:   5-mysql_backup
+# Author: Alex Orland Arévalo Tribaldos
+# email:  <3915@holbertonschool.com>
+
+# Script generates a compressed archive of a MySQL dump of all databases
+# Creates compressed tar.gz archive for backup
+# User to connect to db must be 'root' and arg passed to script must be password
+
+mysqldump -uroot -p"$1" --all-databases > backup.sql
+tar -cvzf "$(date +%d-%m-%Y)".tar.gz backup.sql
