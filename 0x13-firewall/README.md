@@ -34,9 +34,9 @@ The project contains some tasks for learning about how to use ufw commands to co
 ## Resources :books:
 Read or watch:
 	
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=Web+stack+debugging&oq=Web+stack+debugging&aqs=chrome..69i57j69i60l3.4512j0j15&sourceid=chrome&ie=UTF-8)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/80px-Google_2015_logo.svg.png)](https://www.google.com/search?q=what+is++a+firewall&sxsrf=ALiCzsaABqvZRqzgAEOahYg92ZQQ1sLG_A%3A1651777148662&ei=fB50YuKOKJKp_Qa3y7agDw&ved=0ahUKEwjivMaxhcn3AhWSVN8KHbelDfQQ4dUDCA4&uact=5&oq=what+is++a+firewall&gs_lcp=Cgdnd3Mtd2l6EAMyCggAEIAEEIcCEBQyBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB46BwgAEEcQsAM6BwgAELADEEM6BAgAEApKBAhBGABKBAhGGABQqQpY3hRg2iRoAXABeACAAbUBiAHFA5IBAzAuM5gBAKABAcgBCsABAQ&sclient=gws-wiz)
 
-[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=web+stack+debugging+on+server)
+[![M](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_of_YouTube_%282015-2017%29.svg/70px-Logo_of_YouTube_%282015-2017%29.svg.png)](https://www.youtube.com/results?search_query=what+is++a+firewall)
 
 - [Web stack debugging](https://intranet.hbtn.io/concepts/68)
 - [What is a firewall](https://intranet.hbtn.io/rltoken/QS5iHSDU_woydPRIb68sOw) 
