@@ -29,7 +29,7 @@ This project contains some tasks for learning about the replicate of *`Nginx`* c
 
 ## About
 	
-This project contains some tasks for learning about the replicate of *`Nginx`* configuration the original server, and another to set up an *`HAproxy`* ***load balancer*** on to manage both web servers.
+This project contains some tasks for learning about the replicate of *`Nginx`* configuration the original server, and another to set up an *`HAproxy`* *load balancer* on to manage both web servers.
 
 ### Background Context
 	
