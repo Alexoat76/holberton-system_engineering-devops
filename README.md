@@ -42,6 +42,7 @@ The projects in this repository cover:
 		
 - Allowed editors: `vi`, `vim`, `emacs`.
 - All files will be interpreted/compiled on `Ubuntu 20.04 LTS`.
+- All files of Data Bases will be created and replicated on `MySQL 5.7` on `Ubuntu 20.04`.
 - All files should end with a new line.
 - The first line of all files should be exactly `#!/usr/bin/env bash`.
 - A `README.md` file at the root of the repo, containing a description of the repository.
@@ -66,7 +67,19 @@ The projects in this repository cover:
 | [0x09. Web Infrastructure Design ](./0x09-web_infrastructure_design) | Designing secure and monitored server systems |
 | [0x0A. Configuration Management ](./0x0A-configuration_management) | Server with Puppet manifests/modules |
 | [0x0B. SSH ](./0x0B-ssh) | Client configuration and key generation using SSH |
+| [0x0C. Web Server ](./0x0C-web_server) | NGINX web server deployment and domain name set-up |
+| [0x0D. Web Stack Debugging #0 ](./0x0D-web_stack_debugging_0) | Using Docker to maintain and debug Apache servers |
+| [0x0E. Web Stack Debugging #1 ](./0x0E-web_stack_debugging_1) | Debugging NGINX servers with faulty ports |
+| [0x0F. Load Balancer](./0x0F-load_balancer) | Load balancing on HAProxy servers |
+| [0x10. HTTPS SSL](./0x10-https_ssl) | Configuring HTTPS with Let's Encrypt and certbot |
+| [0x12. Web stack debugging #2](./0x12-web_stack_debugging_2) | Debugging and running software as another user |
+| [0x13. Firewall](./0x13-firewall) | Setting up UFW to block/allow incoming traffic |
+| [0x14. MySQL](./0x14-mysql) | Implementing Primary-Replica infrastructure in MySQL |
+| [0x17. Web Stack Debugging #3](./0x17-web_stack_debugging_3)| Debugging with strace |
+| [0x1B. Web Stack Debugging #4](./0x1B-web_stack_debugging_4) | Benchmarking with ApacheBench |
 
+---
+	
 ## Credits
 
 ## Author(s):blue_book:
