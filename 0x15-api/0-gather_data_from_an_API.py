@@ -7,15 +7,13 @@
 Uses https://jsonplaceholder.typicode.com along with an employee ID to
 return information about the employee's todo list progress
 """
-
-
 import re
 import requests
 import sys
 
 
 API_URL = 'https://jsonplaceholder.typicode.com'
-'''The API's URL.'''
+"""The API's URL."""
 
 
 if __name__ == '__main__':
