@@ -5,9 +5,6 @@
 
 """
 Query Reddit API recursively for all hot articles of a given subreddit
-NOTE: Get user agent:
-            https://stackoverflow.com/questions/10606133/ -->
-            sending-user-agent-using-requests-library-in-python
 """
 
 import requests
