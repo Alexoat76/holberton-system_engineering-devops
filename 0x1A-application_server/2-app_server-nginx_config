@@ -48,7 +48,7 @@ server {
 	server_name _;
 	
 	location /redirect_me {
-                 return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
+            return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4/;
 	}	
 
 	location / {
@@ -62,7 +62,7 @@ server {
 	
 	location /airbnb-onepage/ {
                 alias ~/AirBnB_clone_v2/;
-                proxy_pass http://0.0.0.0:5000;
+                proxy_pass http://localhost:5000;
         }	
 
 	# pass PHP scripts to FastCGI server
