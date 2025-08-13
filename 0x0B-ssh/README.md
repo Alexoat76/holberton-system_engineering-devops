@@ -251,7 +251,7 @@ Work is owned and maintained by
 <3915@holbertonschool.com>
 	
 [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/25px-Octicons-mark-github.svg.png)](https://github.com/Alexoat76)
-[![M](https://github.com/Alexoat76/holberton-system_engineering-devops/blob/main/0x0B-ssh/assets/logo-x-50.png)](https://twitter.com/aoarevalot)
+[![M](https://github.com/Alexoat76/holberton-system_engineering-devops/blob/main/0x0B-ssh/assets/logo-x-30.png)](https://twitter.com/aoarevalot)
 [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/25px-LinkedIn_logo_initials.png)](https://www.linkedin.com/in/Alexoat76/)
 
 ## Acknowledgments :mega: 
